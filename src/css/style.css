@@ -24,6 +24,7 @@ body{
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-weight: 100;
+	cursor: pointer;
 }
 
 .intro{
@@ -90,6 +91,10 @@ body{
 	padding-left: 100px !important;
 }
 
+.right-side{
+	padding: 0px !important;
+}
+
 .info-page{
 	background-color: rgba(241, 241, 241, 0.88);
 	height: 100vh;
@@ -106,4 +111,3 @@ body{
 	bottom: 20px;
 	font-size: 12px;
 }
-
