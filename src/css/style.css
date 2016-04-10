@@ -57,7 +57,7 @@ img{
 .viz-page{
 	height: 100%;
 	width: 100%;
-	background-color: red;
+	background-color: #f1f1f1;
 	position: absolute;
 	top: 0;
 	z-index: -1;
@@ -72,6 +72,5 @@ img{
 	/*padding-left: 100px;*/
 	background-color: rgba(241, 241, 241, 0.88);
 	height: 100vh;
-
 }
 
