@@ -46,7 +46,7 @@ body{
 	/*font-weight: bold;*/
 }
 
-img{
+.modi-image{
 	transform: scalex(-1);
 	/*float: right;*/
 	bottom:0px;
@@ -63,14 +63,47 @@ img{
 	z-index: -1;
 }
 
+.social-icons{
+	position: absolute;
+	top:20px;
+	right: 30px;
+}
+
+
+.social-icons img{
+	/*box-shadow: 2px 2px 2px grey;*/
+	/*height: 40px;*/
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+
+.social-icons img:hover{
+	/*box-shadow: 2px 2px 2px grey;*/
+	height: 40px;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
 
 .left-side{
 	padding-left: 100px !important;
 }
 
 .info-page{
-	/*padding-left: 100px;*/
 	background-color: rgba(241, 241, 241, 0.88);
 	height: 100vh;
+}
+
+.hint-text{
+	font-size: 12px;
+	color: #999;
+	font-style: italic;
+}
+
+.withlove{
+	position: absolute;
+	bottom: 20px;
+	font-size: 12px;
 }
 
